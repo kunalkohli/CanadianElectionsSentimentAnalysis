@@ -132,10 +132,10 @@ if __name__ == "__main__":
   # calling main function 
 
 
-  Scheer_sentiment = main(queries = ['#AndrewScheer'], num_tweets = 100) #change number of tweets here
+  Scheer_sentiment = main(queries = ['#AndrewScheer'], num_tweets = 1000) #change number of tweets here
   print('Scheer Sentiment Score ' , Scheer_sentiment)
 
-  Trudeau_Black_Face_sentiment = main(queries = ['#BlackfaceTrudeau','#Trudeaublackface','#JustinTrudeau'], num_tweets = 100000) #change number of tweets here
+  Trudeau_Black_Face_sentiment = main(queries = ['#BlackfaceTrudeau','#Trudeaublackface','#JustinTrudeau'], num_tweets = 1000) #change number of tweets here
   print('Trudeau_Black_Face_sentiment Sentiment Score ' , Trudeau_Black_Face_sentiment)
 
 
